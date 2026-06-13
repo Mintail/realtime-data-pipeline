@@ -12,7 +12,7 @@ The project uses the BTC/USDT price from the Binance public API and provides:
 
 ---
 
-## 🚀 Features
+## Features
 
 ### Real-Time Ingestion
 - Fetches BTC/USDT price from Binance
@@ -48,7 +48,7 @@ The project uses the BTC/USDT price from the Binance public API and provides:
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
 RealTime Data Pipeline
@@ -94,7 +94,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the Pipeline
+## Running the Pipeline
 
 Open **Terminal 1** and start the pipeline:
 
@@ -108,7 +108,7 @@ This will:
 
 ---
 
-## 📊 Launching the Dashboard
+## Launching the Dashboard
 
 Open **Terminal 2**:
 
@@ -120,14 +120,14 @@ Your browser will open automatically with the dashboard.
 
 ---
 
-## ⏹️ Stop the Pipeline and the Dashboard
+## Stop the Pipeline and the Dashboard
 
 To stop the pipeline and the dashboard, you **must manually kill both terminals using `CTRL + C`**.  
 This is required because both processes run continuously in real time.
 
 ---
 
-## 📝 Example Outputs
+## Example Outputs
 
 - Live BTC/USDT price  
 - Baseline signal (buy / sell / neutral)  
@@ -139,7 +139,7 @@ This is required because both processes run continuously in real time.
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 You can customize:
 - Pipeline refresh interval → `scheduler.py → run_pipeline(sleep_seconds=1)`
@@ -149,12 +149,12 @@ You can customize:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 ---
 
-## 📄 License
+## License
 
 MIT License.
